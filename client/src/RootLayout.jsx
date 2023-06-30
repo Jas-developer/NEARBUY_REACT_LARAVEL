@@ -1,10 +1,13 @@
 // IMPORT YOUR COMPONENTS HERE </RAFC>
 import React from "react";
+import { Hero } from "./components/hero/Hero";
+import { ShopSale } from "./components/products/shop-sale/ShopSale";
 
 export const RootLayout = () => {
   return (
     <div>
-      <h1 className="font-bold">Import here your all components s</h1>
+      <Hero />
+      <ShopSale />
     </div>
   );
 };
