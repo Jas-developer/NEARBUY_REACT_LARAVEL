@@ -29,7 +29,7 @@ export const Hero = () => {
           </div>
           <div className="grit-item p-5  lg:ml-24 ml-6">
             <div className="mt-2 md:mt-12">
-              <span className="text-3xl md:text-4xl">SAVE 20%</span>
+              <span className="text-3xl md:text-4xl font-bold">SAVE 20%</span>
             </div>
           </div>
         </div>
