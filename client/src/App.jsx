@@ -1,10 +1,11 @@
 import React from "react";
+import { RootLayout } from "./RootLayout";
 
 export const App = () => {
   return (
     <div>
       <h1 className="text-center bg-black text-white">
-        This is the App that will set up the Routes.
+        <RootLayout />
       </h1>
     </div>
   );
