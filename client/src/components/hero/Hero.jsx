@@ -21,7 +21,7 @@ export const Hero = () => {
               </span>
             </div>
             <div className="button-wrapper mt-6">
-              <button className="bg-white w-36 text-orange-400 font-semibold p-1 rounded-md">
+              <button className=" transition-transform duration-300 transform hover:scale-110 bg-white w-36 text-orange-400 font-semibold p-1 rounded-md">
                 Shop now
               </button>
             </div>

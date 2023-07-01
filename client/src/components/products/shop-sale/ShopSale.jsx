@@ -9,22 +9,38 @@ export const ShopSale = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 text-black mt-4 gap-6 ">
         <div className="grid-item">
           <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-            <img src="./products/nestle.png" alt="" className="" />
+            <img
+              src="./products/nestle.png"
+              alt=""
+              className="transition-transform duration-300 transform hover:scale-110"
+            />
           </div>
         </div>
         <div className="grid-item">
           <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl ">
-            <img src="./products/feed.png" alt="" />
+            <img
+              src="./products/feed.png"
+              alt=""
+              className="transition-transform duration-300 transform hover:scale-110 "
+            />
           </div>
         </div>
         <div className="grid-item">
           <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-            <img src="./products/fan.png" alt="" className="" />
+            <img
+              src="./products/fan.png"
+              alt=""
+              className="transition-transform duration-300 transform hover:scale-110"
+            />
           </div>
         </div>
         <div className="grid-item ">
           <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-            <img src="./products/note.png" alt="" className="" />
+            <img
+              src="./products/note.png"
+              alt=""
+              className="transition-transform duration-300 transform hover:scale-110"
+            />
           </div>
         </div>
       </div>

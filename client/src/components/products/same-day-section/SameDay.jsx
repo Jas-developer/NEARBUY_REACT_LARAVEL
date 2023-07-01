@@ -60,7 +60,11 @@ export const SameDay = () => {
           </div>
           <div className="grid-item ">
             <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/note.png" alt="" className="" />
+              <img
+                src="./products/note.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
         </div>
