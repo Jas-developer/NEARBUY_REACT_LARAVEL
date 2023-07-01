@@ -1,7 +1,13 @@
+import Map from './components/maps/Map';
+import Details from './components/maps/Details';
+
 export const Store = ()=> {
     return (
         <>
-            <h1>Stores Page</h1>
+            <div className="">
+                <Map />
+                <Details className="overflow-x-scroll"/>
+            </div>
         </>
     )
 }
