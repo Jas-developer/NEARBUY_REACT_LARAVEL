@@ -11,7 +11,7 @@ export const SameDay = () => {
           </div>
           <div className="grid-item">
             <div className="flex  lg:justify-end md:justify-end p-4">
-              <button className=" mt-2 mr-20 bg-blue-400 p-2 rounded-lg w-36 text-white-600 font-semibold text-xl shadow-gray-900">
+              <button className="transition-transform duration-300 transform hover:scale-110 mt-2 mr-20 bg-blue-400 p-2 rounded-lg w-36 text-white-600 font-semibold text-xl shadow-gray-900">
                 Learn more.
               </button>
             </div>
@@ -24,42 +24,70 @@ export const SameDay = () => {
         </span>
         <div className="grid grid-cols-3 gap-2  md:grid-cols-4 text-black mt-4 md:gap-6 ">
           <div className="grid-item">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/nestle.png" alt="" className="" />
+            <div className="  grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl cursor-pointer">
+              <img
+                src="./products/nestle.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl ">
-              <img src="./products/feed.png" alt="" />
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl ">
+              <img
+                src="./products/feed.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/fan.png" alt="" className="" />
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+              <img
+                src="./products/fan.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item ">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/note.png" alt="" className="" />
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+              <img
+                src="./products/choco.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/fan.png" alt="" className="" />
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+              <img
+                src="./products/mouse.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item ">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/note.png" alt="" className="" />
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+              <img
+                src="./products/kindle.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
-              <img src="./products/fan.png" alt="" className="" />
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+              <img
+                src="./products/keyb.png"
+                alt=""
+                className="transition-transform duration-300 transform hover:scale-110"
+              />
             </div>
           </div>
           <div className="grid-item ">
-            <div className="grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/note.png"
                 alt=""
@@ -70,7 +98,9 @@ export const SameDay = () => {
         </div>
       </div>
       <div className="order-text-wrapper lg:text-2xl text-lg font-semibold text-center underline mt-6 text-gray-600">
-        <span className="shadow p-3"> 200,000+ Successfull Orders.</span>
+        <span className=" cursor-pointer shadow p-3 transition-transform duration-300 transform hover:scale-110">
+          200,000+ Successfull Orders.
+        </span>
       </div>
     </div>
   );

@@ -7,9 +7,12 @@ import { SameDay } from "./components/products/same-day-section/SameDay";
 export const RootLayout = () => {
   return (
     <div>
-      <Hero />
-      <ShopSale />
-      <SameDay />
+      {/* navbar area here */}
+      <div className="md:mx-4 mx-1 lg:mx-12">
+        <Hero />
+        <ShopSale />
+        <SameDay />
+      </div>
     </div>
   );
 };
