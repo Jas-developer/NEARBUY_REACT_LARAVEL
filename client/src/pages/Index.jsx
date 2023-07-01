@@ -4,14 +4,18 @@ import { Service }from './Service';
 import { Contact }from './Contact';
 import { NoPage }from './NoPage';
 import { RootLayout }from './RootLayout';
-
+import { Store } from './Store';
+import { Help } from './Help';
+ 
 export const Index = ()=> {
     return(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<RootLayout />}>
                     <Route index element={<Home />}/>
+                    <Route path="/help" element={<Help />} />
                     <Route path="/service" element={<Service />} />
+                    <Route path="/store" element={<Store />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<NoPage />} />
                 </Route>

@@ -32,7 +32,7 @@ export const RootLayout = () => {
                 ) : ""
             }
             {
-                location.pathname === '/stores' ?
+                location.pathname === '/store' ?
                 (
                 <title>NearBuy - Stores</title>
                 ) : ""
