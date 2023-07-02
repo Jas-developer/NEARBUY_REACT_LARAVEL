@@ -1,7 +1,7 @@
 // IMPORT YOUR COMPONENTS HERE </RAFC>
 import { Outlet, useLocation} from "react-router-dom";
 import { Helmet } from 'react-helmet';
-// import { Footer } from "./components/footer/Footer"
+import { Footer } from "./components/footer/Footer"
 import { Navbar } from "./components/navbar/Navbar";
 
 export const RootLayout = () => {
@@ -60,7 +60,7 @@ export const RootLayout = () => {
 
       <Navbar />
         <Outlet/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 };
