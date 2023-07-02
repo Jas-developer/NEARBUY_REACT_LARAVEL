@@ -11,9 +11,14 @@
   },
   "dependencies": {
     "react": "^18.2.0",
+<<<<<<< HEAD
     "react-helmet": "^6.1.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.1"
+=======
+    "react-dom": "^18.2.0",
+
+>>>>>>> 5645086a840616c60e3e75e1c63ebbf5da28fcbb
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
