@@ -8,7 +8,7 @@ export const Help = () => {
         <div className="shadow p-6">
           <div>
             <h1 className="text-3xl font-bold text-orange-500">
-              NEED HELP?
+              Need Help?
             </h1>
             <div className="p-wrapper mt-2 text-gray-500">
               <p className="mb-3">
@@ -33,10 +33,10 @@ export const Help = () => {
           </div>
           <div className="mt-8">
             <h1 className="text-3xl font-bold text-orange-500">
-              HOW CAN WE ASSIST YOU?
+              Call us
             </h1>
             <p className="mt-4 text-gray-500">
-              Our customer support team is available to help you with any inquiries or issues you may have. If you need direct inquiries, please call us using this number.
+              If you need direct inquiries, please call us using this number.
             </p>
             <div className="flex justify-center mt-8">
               <FcTouchscreenSmartphone className="text-5xl text-gray-500" />
