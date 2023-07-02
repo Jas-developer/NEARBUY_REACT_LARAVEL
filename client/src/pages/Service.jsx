@@ -1,7 +1,9 @@
+import Services from "./components/services/Services"
+
 export const Service = ()=> {
     return (
         <>
-            <h1>Service Page</h1>
+            <Services />
         </>
     )
 }
