@@ -1,10 +1,9 @@
-import React from "react";
-import { RootLayout } from "./RootLayout";
+import { Index } from "./pages/Index";
 
 export const App = () => {
   return (
-    <div className="text-white">
-      <RootLayout />
+    <div className="text-black">
+      <Index />
     </div>
   );
 };
