@@ -75,7 +75,25 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="bg-orange-600">Bottom part</div>
+      <div className="bg-orange-400 ">
+        <div className="grid md:grid-cols-2 lg:mx-24 ">
+          <div className="grid-item p-6 ml-6">
+            <span className="text-4xl font-semibold text-white">NEARBUY</span>
+            <p className="p-1 text-white shadow">
+              Step into a world of premium products that blend functionality,
+              durability, and sleek design for the modern lifestyle.
+            </p>
+          </div>
+          <div className="grid-item p-6 ml-6 ">
+            <span className="text-2xl font-semibold text-white">ABOUT US</span>
+
+            <p className="p-1 text-white shadow">
+              Welcome to our online store, where you'll find a wide range of
+              high-quality products to enhance your everyday life.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
