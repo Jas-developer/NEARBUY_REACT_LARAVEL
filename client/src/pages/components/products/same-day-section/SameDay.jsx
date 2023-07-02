@@ -5,13 +5,13 @@ export const SameDay = () => {
     <div className="sameday-wrapper mx-10 mt-8">
       <div className="bg-orange-400 rounded-lg drop-shadow-2xl">
         <div className="grid md:grid-cols-2 mt-4">
-          <div className="grid-item p-4 text-2xl font-semibold drop-shadow-md">
+          <div className="grid-item p-4 text-2xl font-semibold drop-shadow-md text-white">
             <span>Same Day Delivery</span> <br />
             <span>From Sellers Near You.</span>
           </div>
           <div className="grid-item">
             <div className="flex  lg:justify-end md:justify-end p-4">
-              <button className="transition-transform duration-300 transform hover:scale-110 mt-2 mr-20 bg-blue-400 p-2 rounded-lg w-36 text-white-600 font-semibold text-xl shadow-gray-900">
+              <button className=" text-white transition-transform duration-300 transform hover:scale-110 mt-2 mr-20 bg-blue-400 p-2 rounded-lg w-36 text-white-600 font-semibold text-xl shadow-gray-900">
                 Learn more.
               </button>
             </div>
