@@ -32,13 +32,15 @@ export const Help = () => {
             </div>
           </div>
           <div className="mt-8">
-            <h1 className="text-3xl font-bold text-orange-500">
-              Call us
-            </h1>
+            <div className="flex justify-start">
+              <h1 className="text-3xl font-bold text-orange-500">
+                Call us
+              </h1>
+            </div>
             <p className="mt-4 text-gray-500">
               If you need direct inquiries, please call us using this number.
             </p>
-            <div className="flex justify-center mt-8">
+            <div className="flex items-center mt-8">
               <FcTouchscreenSmartphone className="text-5xl text-gray-500" />
               <span className="text-xl text-gray-500 ml-4">
                 Call us at: 123-456-7890
@@ -63,7 +65,4 @@ export const Help = () => {
 };
 
 export default Help;
-
-
-
 
