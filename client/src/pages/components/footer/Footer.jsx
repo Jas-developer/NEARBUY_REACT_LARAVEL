@@ -1,4 +1,6 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { AiOutlineBars, AiOutlineClose } from 'react-icons/ai';
 
 const Footer = () => {
   return (
