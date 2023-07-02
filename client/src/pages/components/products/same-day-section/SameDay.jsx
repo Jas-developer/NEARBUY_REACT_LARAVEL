@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export const SameDay = () => {
   return (
@@ -24,76 +25,76 @@ export const SameDay = () => {
         </span>
         <div className="grid grid-cols-3 gap-2  md:grid-cols-4 text-black mt-4 md:gap-6 ">
           <div className="grid-item">
-            <div className="  grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl cursor-pointer">
+            <Link to="/Product/product-id" className="  grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl cursor-pointer">
               <img
                 src="./products/nestle.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl ">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl ">
               <img
                 src="./products/feed.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/fan.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item ">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/choco.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/mouse.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item ">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/kindle.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/keyb.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
           <div className="grid-item ">
-            <div className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
+            <Link to="/Product/product-id" className="cursor-pointer grid place-items-center bg-gray-300 rounded-lg h-42 shadow-2xl">
               <img
                 src="./products/note.png"
                 alt=""
                 className="transition-transform duration-300 transform hover:scale-110"
               />
-            </div>
+            </Link>
           </div>
         </div>
       </div>
