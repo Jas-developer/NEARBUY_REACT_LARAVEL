@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react';
 
 const Marker = ({color})=><div style={{backgroundColor:color,width:'10px'}}></div>
 
-export default function Map({}){
+export default function Map(){
     const defaultProps = {
         center:{
             lat:20.6665706,
@@ -13,7 +13,7 @@ export default function Map({}){
     };
 
     return (
-        <div style={{width:'100%',height:'50vh'}}>
+        <div className='w-full h-96 min-h-96'>
             <GoogleMapReact
                 bootstrapURLKeys={{key:'AIzaSyCIwcnmj5PcfmncGWA-OUCdLiZVQ1tDhZ4'}}
                 defaultCenter={defaultProps.center}
