@@ -10,7 +10,7 @@ export const Footer = () => {
           © {new Date().getFullYear()} NearBuy. All rights reserved.
         </p>
         <p className="text-sm mt-2">
-          Designed and developed by Your Company Name.
+          Designed and developed by NearBuy.
         </p>
       </div>
     </div>
