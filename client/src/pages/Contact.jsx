@@ -75,8 +75,8 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="bg-orange-400 ">
-        <div className="grid md:grid-cols-2 lg:mx-24 ">
+      <div className="">
+        <div className="grid md:grid-cols-2 lg:mx-24 bg-blue-500 ">
           <div className="grid-item p-6 ml-6">
             <span className="text-4xl font-semibold text-white">NEARBUY</span>
             <p className="p-1 text-white shadow">
