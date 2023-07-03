@@ -6,7 +6,8 @@ import { NoPage } from "./NoPage";
 import { RootLayout } from "./RootLayout";
 import { Store } from "./Store";
 import { Help } from "./Help";
-import { SignUp } from "./SignUp";
+import { Auth } from "./Auth";
+
 import { AdminLayout } from "./admin/AdminLayout";
 import { Dashboard } from "./admin/Dashboard";
 import { Transactions } from "./admin/Transactions";
@@ -30,7 +31,7 @@ export const Index = () => {
           <Route path="/service" element={<Service />} />
           <Route path="/store" element={<Store />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signup" element={<Auth />} />
 
           <Route path="/admin" element={<AdminLayout/>}>
             <Route index element={<Dashboard />} />
