@@ -1,7 +1,7 @@
 export default function StoreMiniProfile({picture,name,category,hours,address}) {
     return (
         <>
-            <div className="card w-96 mx-auto bg-orange-400 rounded-3xl shadow-xl hover:shadow-orange-200 text-white">
+            <div className="card w-96 mx-auto bg-orange-400 rounded-3xl shadow-xl hover:shadow-orange-200 hover:translate-x-2 text-white">
                     <img className="w-32 mx-auto rounded-full -mt-14 border-8 border-orange-400 " src={picture} alt=""/>
                     <div className="text-center mt-2 text-3xl font-medium">{name}</div>
                     <div className="text-center mt-2 font-light text-sm">{category}</div>

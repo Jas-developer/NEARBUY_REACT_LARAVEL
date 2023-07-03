@@ -3,7 +3,9 @@ import StoreMiniProfile from "../stores/StoreMiniProfile"
 export default function Details() {
     return (
         <>
-            <div className="bg-white font-sans h-auto w-full flex  justify-center items-center mt-20 ">
+            
+            <div className="bg-white font-sans w-full flex flex-col space-y-20 justify-center items-center mt-5">
+                <h1 className=" text-2xl capitalize">Find a store near you</h1>
                 <StoreMiniProfile 
                     picture='https://www.smsupermalls.com/data/uploads/2022/01/MAAX_1.jpg' 
                     name='Mall Of Asia Arena'
