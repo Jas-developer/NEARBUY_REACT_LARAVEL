@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
@@ -12,7 +13,7 @@ export const Navbar = () => {
           {/* Logo */}
           <div>
             <Link to="/" className="text-3xl" href="#">
-              LOGO
+              <img src="./logo/LogoOnlyfinal 1.png" alt="LOGO" />
             </Link>
           </div>
           {/* Menu */}
