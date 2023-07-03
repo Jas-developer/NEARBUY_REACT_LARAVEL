@@ -13,7 +13,7 @@ export const Navbar = () => {
           {/* Logo */}
           <div>
             <Link to="/" className="text-3xl" href="#">
-              <img src="./logo/LogoOnlyfinal 1.png" alt="LOGO" />
+              <img src="./logo/LogoResized.png" alt="LOGO" />
             </Link>
           </div>
           {/* Menu */}
