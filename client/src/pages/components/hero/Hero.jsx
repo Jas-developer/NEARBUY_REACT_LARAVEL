@@ -5,8 +5,8 @@ export const Hero = () => {
     <div className="bg-white">
       <div className="hero-wrapper p-10">
         <div className="grid grid-cols-1  md:grid-cols-2 bg-orange-300  md:bg-orange-400 rounded-2xl ">
-          <div className="grid-item p-5 mt-6 lg:ml-24 ml-6">
-            <div>
+          <div className="grid-item p-5 mt-6 lg:ml-24 ml-6 ">
+            <div className="shadow-2xl">
               <span>
                 <b className=" text-3xl md:text-4xl text-orange-600 md:text-white">
                   {" "}
@@ -20,7 +20,7 @@ export const Hero = () => {
                 <strong>for first time users only</strong>
               </span>
             </div>
-            <div className="button-wrapper mt-6">
+            <div className="button-wrapper mt-6 ">
               <button className=" transition-transform duration-300 transform hover:scale-110 bg-white w-36 text-orange-400 font-semibold p-1 rounded-md">
                 Shop now
               </button>
