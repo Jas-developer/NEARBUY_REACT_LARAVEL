@@ -12,7 +12,11 @@ export const Footer = () => {
         </div>
         <div className="grid bg-orange-400 mt-2 text-white">
           <h2 className="text-lg font-semibold mb-3">About us</h2>
-          <p>We're your go-to online marketplace for seamless buying and selling experiences. We prioritize trust, convenience, and quality to ensure your satisfaction.</p>
+          <p>
+            We're your go-to online marketplace for seamless buying and selling
+            experiences. We prioritize trust, convenience, and quality to ensure
+            your satisfaction.
+          </p>
         </div>
         <div className="grid bg-orange-400 mt-2 text-white">
           <h2 className="text-lg font-semibold mb-3">Vision</h2>
@@ -20,7 +24,11 @@ export const Footer = () => {
         </div>
         <div className="grid bg-orange-400 mt-2 text-white">
           <h2 className="text-lg font-semibold mb-3">Mission</h2>
-          <p>Our mission is to provide a trusted platform that empowers individuals and businesses to buy and sell products easily, fostering growth and entrepreneurship in the digital marketplace.</p>
+          <p>
+            Our mission is to provide a trusted platform that empowers
+            individuals and businesses to buy and sell products easily,
+            fostering growth and entrepreneurship in the digital marketplace.
+          </p>
         </div>
       </div>
     </div>
