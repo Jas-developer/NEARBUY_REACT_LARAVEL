@@ -1,6 +1,7 @@
 import Map from './components/maps/Map';
 import Details from './components/maps/Details';
 
+ 
 export const Store = ()=> {
     return (
         <>
