@@ -41,7 +41,7 @@ export const Help = () => {
             <p className="mt-4 text-gray-500">
               If you need direct inquiries, please call us using this number.
             </p>
-            <div className="flex justify-center mt-8">
+            <div className="flex items-center mt-8">
               <FcTouchscreenSmartphone className="text-5xl text-gray-500" />
               <span className="text-xl text-gray-500 ml-4">
                 Call Us at: 123-456-7890
