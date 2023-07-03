@@ -15,6 +15,7 @@ export const SignUp = () => {
             <form
               action=""
               className="shadow p-12 bg-orange-400 rounded-lg border-2 "
+              onSubmit={handleLogin}
             >
               <span className="text-white text-center font-bold text-3xl">
                 LOG IN
