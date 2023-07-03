@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
 
 export const Footer = () => {
   return (
@@ -27,7 +29,7 @@ export const Footer = () => {
             Contacts
           </p>
           <div className="flex">
-            <p className="mr-1">Phone:</p>
+            <p className="mr-1"><HiOutlinePhone /></p>
             <a
               href="tel:850-123-5021"
               aria-label="Our phone"
@@ -38,7 +40,7 @@ export const Footer = () => {
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1">Email:</p>
+            <p className="mr-1"><HiOutlineMail /></p>
             <a
               href="mailto:info@lorem.mail"
               aria-label="Our email"
@@ -49,7 +51,7 @@ export const Footer = () => {
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1">Address:</p>
+            <p className="mr-1"><HiOutlineLocationMarker /></p>
             <a
               href="https://www.google.com/maps"
               target="_blank"
@@ -68,26 +70,25 @@ export const Footer = () => {
           </span>
           <div className="flex items-center mt-1 space-x-3">
             <a
-              href="/"
+              href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjh1u_7kPP_AhWAilYBHa4SBoYQFnoECAYQAQ&url=https%3A%2F%2Fwww.facebook.com%2F&usg=AOvVaw2q27ov2cpCynr72DmuSqEz&opi=89978449"
               className="text-gray-500"
             >
-              <span className="h-5"></span>
+              <FaFacebook size={20} />
             </a>
             <a
-              href="/"
+              href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiO1fX0kPP_AhWSgFYBHdHoA1MQFnoECAsQAQ&url=https%3A%2F%2Ftwitter.com%2F%3Flang%3Den&usg=AOvVaw1Sd3B-_cNZOLSmhw9z2lOm&opi=89978449"
               className="text-gray-500"
             >
-              <span className="h-6"></span>
+              <FaTwitter size={20} />
             </a>
             <a
-              href="/"
+              href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiy9ejqkPP_AhW5mVYBHd_nC28QFnoECAYQAQ&url=https%3A%2F%2Fwww.instagram.com%2F&usg=AOvVaw1cBeRoOpMhZ3-x5M1sA3Fm&opi=89978449"
               className="text-gray-500"
             >
-              <span className="h-5"></span>
+              <FaInstagram size={20} />
             </a>
           </div>
           <p className="mt-4 text-sm">
-            Anything basta description
           </p>
         </div>
       </div>
