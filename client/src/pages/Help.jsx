@@ -47,31 +47,7 @@ export const Help = () => {
                 Call Us at: 123-456-7890
               </span>
             </div>
-            <div className="flex justify-center mt-8">
-              <a
-                href="https://www.facebook.com/nearbuy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mr-4"
-              >
-                <FaFacebook className="text-3xl text-gray-500" />
-              </a>
-              <a
-                href="https://www.twitter.com/nearbuy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mr-4"
-              >
-                <FaTwitter className="text-3xl text-gray-500" />
-              </a>
-              <a
-                href="https://www.instagram.com/nearbuy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaInstagram className="text-3xl text-gray-500" />
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
