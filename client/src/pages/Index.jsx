@@ -6,7 +6,7 @@ import { NoPage } from "./NoPage";
 import { RootLayout } from "./RootLayout";
 import { Store } from "./Store";
 import { Help } from "./Help";
-import { SignUp } from "./SignUp";
+import { Auth } from "./Auth";
 
 export const Index = () => {
   return (
@@ -18,7 +18,7 @@ export const Index = () => {
           <Route path="/service" element={<Service />} />
           <Route path="/store" element={<Store />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signup" element={<Auth />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
