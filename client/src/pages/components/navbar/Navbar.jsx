@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 
 export const Navbar = () => {
   const [status, setStatus] = useState(false);
+  const [Signup, setSignup] = useState(false);
+
+  const handleSignUP = () => {
+    setSignup(!Signup);
+  };
 
   return (
     <>
@@ -52,7 +57,12 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link to="/signup">
-                  <button className="p-2 rounded bg-blue-400">Sign Up</button>
+                  <button
+                    onClick={handleSignUP}
+                    className="p-2 rounded bg-blue-400"
+                  >
+                    {Signup ? <span>Sign Out</span> : <span>Sign In</span>}
+                  </button>
                 </Link>
               </li>
             </ul>
