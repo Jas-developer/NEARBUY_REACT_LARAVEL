@@ -71,7 +71,6 @@ export const Auth = () => {
         const validation = await response.json();
         setErrors(validation.errors);
         setRegistrationSuccess(false);
-        alert("Wrong Credintials");
       } else {
         setRegistrationSuccess(true);
         setErrors(null);
