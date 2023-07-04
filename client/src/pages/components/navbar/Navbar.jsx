@@ -81,7 +81,7 @@ export const Navbar = () => {
           <div className="z-10 p-5 bg-gradient-to-b from-orange-400 to-white w-[240px] h-screen">
             <div className="flex mb-5">
               <Link to="/" className="text-3xl">
-                LOGO
+                <img src="./logo/LogoResized.png" alt="LOGO" />
               </Link>
               <AiOutlineClose
                 className="top-5 left-52 absolute cursor-pointer"
