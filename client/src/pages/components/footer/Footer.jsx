@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
+import {
+  HiOutlineMail,
+  HiOutlinePhone,
+  HiOutlineLocationMarker,
+} from "react-icons/hi";
 
 export const Footer = () => {
   return (
-    <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-white text-gray-500">
+    <div className="mx-4 px-4 pt-16  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-white text-gray-500">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
           <Link
@@ -19,17 +23,18 @@ export const Footer = () => {
           </Link>
           <div className="mt-6 lg:max-w-sm">
             <p className="text-sm">
-              We're your go-to online marketplace for seamless buying and selling experiences. We prioritize trust, convenience, and quality to ensure your satisfaction.
+              We're your go-to online marketplace for seamless buying and
+              selling experiences. We prioritize trust, convenience, and quality
+              to ensure your satisfaction.
             </p>
-            
           </div>
         </div>
         <div className="space-y-2 text-sm">
-          <p className="text-base font-bold tracking-wide">
-            Contacts
-          </p>
+          <p className="text-base font-bold tracking-wide">Contacts</p>
           <div className="flex">
-            <p className="mr-1"><HiOutlinePhone /></p>
+            <p className="mr-1">
+              <HiOutlinePhone />
+            </p>
             <a
               href="tel:850-123-5021"
               aria-label="Our phone"
@@ -40,7 +45,9 @@ export const Footer = () => {
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1"><HiOutlineMail /></p>
+            <p className="mr-1">
+              <HiOutlineMail />
+            </p>
             <a
               href="mailto:info@lorem.mail"
               aria-label="Our email"
@@ -51,7 +58,9 @@ export const Footer = () => {
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1"><HiOutlineLocationMarker /></p>
+            <p className="mr-1">
+              <HiOutlineLocationMarker />
+            </p>
             <a
               href="https://www.google.com/maps"
               target="_blank"
@@ -65,9 +74,7 @@ export const Footer = () => {
           </div>
         </div>
         <div>
-          <span className="text-base font-bold tracking-wide">
-            Socials
-          </span>
+          <span className="text-base font-bold tracking-wide">Socials</span>
           <div className="flex items-center mt-1 space-x-3">
             <a
               href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjh1u_7kPP_AhWAilYBHa4SBoYQFnoECAYQAQ&url=https%3A%2F%2Fwww.facebook.com%2F&usg=AOvVaw2q27ov2cpCynr72DmuSqEz&opi=89978449"
@@ -88,36 +95,24 @@ export const Footer = () => {
               <FaInstagram size={20} />
             </a>
           </div>
-          <p className="mt-4 text-sm">
-          </p>
+          <p className="mt-4 text-sm"></p>
         </div>
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-        <p className="text-sm">
-          © 2023 NearBuy. All rights reserved.
-        </p>
+        <p className="text-sm">© 2023 NearBuy. All rights reserved.</p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
-            <a
-              href="/"
-              className="text-sm"
-            >
+            <a href="/" className="text-sm">
               F.A.Q
             </a>
           </li>
           <li>
-            <a
-              href="/"
-              className="text-sm"
-            >
+            <a href="/" className="text-sm">
               Privacy Policy
             </a>
           </li>
           <li>
-            <a
-              href="/"
-              className="text-sm"
-            >
+            <a href="/" className="text-sm">
               Terms &amp; Conditions
             </a>
           </li>
