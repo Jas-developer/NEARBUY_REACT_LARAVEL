@@ -110,14 +110,25 @@ export const Inbox = () =>{
         </div>
       </div>
       <section>
-        <h1 class="font-bold text-2xl">We need UI/UX designer</h1>
+        <h1 class="font-bold text-2xl">Order Status Update</h1>
         <article class="mt-8 text-gray-500 leading-7 tracking-wider">
-          <p>Hi Akhil,</p>
-          <p>Design and develop enterprise-facing UI and consumer-facing UI as well as
-            REST API
-            backends.Work with
-            Product Managers and User Experience designers to create an appealing user experience for desktop web and
-            mobile web.</p>
+          <p>Hi John,</p>
+          <p>Hello,
+
+I hope this message finds you well. I recently placed an order on your website and wanted to inquire about its status. 
+
+Order Details:
+Order Number: #12345
+Product: XYZ Widget
+Quantity: 2
+Order Date: June 5, 2023
+
+I was wondering if you could provide me with an update on when I can expect the delivery of my order. If there are any delays or issues, please let me know as soon as possible.
+
+Thank you for your attention to this matter. I look forward to hearing from you soon.
+
+Best regards,
+Jane Smith.</p>
           <footer class="mt-12">
             <p>Thanks & Regards,</p>
             <p>Alexandar</p>
