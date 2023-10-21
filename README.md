@@ -1,0 +1,3 @@
+# NEARBUY_REACT_LARAVEL
+
+This project is an e-commerce application using React.js (no TypeScript) in collaboration with my team of developers. We've integrated Laravel as the backend, working with a database. My primary responsibility during this project was to create a user registration and sign-in form, allowing users to sign up and sign in if they are already in our database. I also developed an API to support these features. Additionally, I created a REST API for fetching products on the client side. Meanwhile, my team focused on the administrative aspects, where the e-commerce admin can interactively add products using the admin dashboard built in React with Bootstrap 5.
